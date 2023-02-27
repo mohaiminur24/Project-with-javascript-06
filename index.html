@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Javascrpt</title>
+</head>
+<body>
+<section class="w-11/12 mx-auto my-5"> 
+
+
+
+     <div class="w-full mx-auto flex justify-center items-center h-32 gap-5 shadow-sm">
+
+        <input id="input" class="outline-none border rounded-md w-2/5 text-center py-1 font-mono font-semibold" type="text">
+        <button id="searchItmes" class=" px-5 py-1 bg-slate-400 text-white rounded-md">Search</button>
+     </div>
+     <div id="progress" class="w-full text-center hidden">
+        <progress class="progress w-56"></progress>
+     </div>
+
+     <div class="grid grid-cols-5 gap-5 my-5" id="phone-parent">
+
+     </div>
+     <div id="NoDataFound" class="hidden">
+        <h1 class="text-center text-red-700 font-semibold">??? No Search Data Found ???</h1>
+     </div>
+
+
+     <div class="w-full text-center">
+      <button class=" px-5 py-2 bg-gray-600 rounded-md text-white hidden" id="seeMore">See More</button>
+     </div>
+
+
+
+
+
+<!-- modal is here -->
+<!-- Put this part before </body> tag -->
+<input type="checkbox" id="my-modal-3" class="modal-toggle" />
+<div class="modal">
+  <div class="modal-box relative">
+    <label for="my-modal-3" class="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
+    <div id="modalinfo">
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+</section> 
+    <script src="javascript.js"></script>    
+</body>
+</html>
